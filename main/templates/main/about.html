@@ -1,0 +1,22 @@
+{% extends 'main/base.html' %}
+
+{% load static %}
+
+{% block style %} <link rel="stylesheet" href="{% static 'main/styles.css' %}">  {% endblock %}
+
+
+{% block title %}
+    About Me
+{% endblock %}
+
+{% block content %}
+
+    {{ block.super }}
+
+     <p> Hello! My name`s Gabriel, and I`d like to thank you for visiting this source. <br>
+        I am a young develeper who enjoys spending time online making something meaningfull. <br>
+        I am fluent in both Russian and English. Also, love coding! Check out my Chess Project
+     </p>
+
+
+{% endblock %}
