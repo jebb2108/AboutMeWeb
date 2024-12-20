@@ -1,0 +1,17 @@
+{% extends 'main/base.html' %}
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'main/styles.css' %}"> 
+
+
+{% block title %}
+    Main Page
+{% endblock %}
+
+{% block style %} <link rel="stylesheet" href="{% static 'main/styles.css' %}">  {% endblock %}
+
+{% block content %}
+{{ block.super }}
+    <h1> Here will be my chess project</h1>
+{% endblock %}
