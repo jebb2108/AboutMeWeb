@@ -100,40 +100,45 @@ body {
 
 }
 
-#login {
+#login, #signup {
 
     display: inline-flex;
-
     justify-content: center;
     align-items: center;
 
-    margin-right: 5px;
+    margin-right: 10px;
     width: 100px;
     height: 35px;
 
-    border: 1px solid whitesmoke;
+    background-color: transparent;
     border-radius: 10px;
+    border: 2px solid #fff;
 
-}
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
 
-
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
 
 #signup {
-
-    display: inline-flex;
-
-    justify-content: center;
-    align-items: center;
-
-    margin-right: 5px;
-    width: 100px;
-    height: 35px;
-
-    background: #ffc008;
-    border-radius: 10px;
-
-    /* border: 3px solid red; */
+    border: none;
+    color: #000;
+    background-color: #ffc008;
 }
+  
+
+#login:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+  }
+
+#signup:hover {
+    background-color: #ffcd37;
+}
+
 
 
 @media screen and (max-width: 650px) {

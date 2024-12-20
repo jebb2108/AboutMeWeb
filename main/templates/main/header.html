@@ -1,6 +1,7 @@
 <div class="header">
     <div class="flex-container">
 
+
         <a class="flex-element-logo" href="{% url 'home' %}">Jebb</a>
 
         <ul>
@@ -8,11 +9,11 @@
             <li class="flex-element second"><a href="{% url 'chess-project' %}">Chess</a></li>
             <li class="flex-element third"><a href="{% url 'about-me' %}">About</a></li>
         </ul>
-        
-        <div class="login">
-            <div id="login"><a href="#">login</a></div>
-            <div id="signup"><a href="#"><span style="color: black;"><p>sign up</p></span></a></div>
-        </div>
 
+        <div class="login">
+            <a href="#login"><div id="login" inputmode="button">Login</div></a>
+            <a href="#registartion"><div id="signup">Sign-up</div></a>
+
+        </div>
     </div>
 </div>
