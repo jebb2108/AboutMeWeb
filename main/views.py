@@ -13,3 +13,9 @@ def showChess(request):
 
 def showLanguages(request):
     return render(request, 'main/languages.html')
+
+def login(request):
+    return render(request, 'main/login.html')
+
+def register(request):
+    return render(request, 'main/register.html')

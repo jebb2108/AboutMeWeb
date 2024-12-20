@@ -27,12 +27,15 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+AUTH_USER_MODEL = "users.CustomUser"
+
 
 # Application definition
 
 INSTALLED_APPS = [
 
     'main',
+    'users',
 
     'django.contrib.admin',
     'django.contrib.auth',
